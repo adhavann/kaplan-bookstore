@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 0px;
+  align-items: center;
+}
+
+.button {
+  border-radius: 4px;
+  font-size: 18px;
+  height: 40px;
+  width: 120px;
+  padding: 2px;
+  color: white;
+  background-color: #2752bf;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 0px;
+}
+
+.list-books {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.busy-message {
+  margin: 32px;
+  font-size: 32px;
+}
